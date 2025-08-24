@@ -1,8 +1,18 @@
-:root{
-    --main-bg--: #2E073F;
-    --button-bg--: #7A1CAC;
-    --primari-bg--:#AD49E1;
-    --main-font--: #EBD3F8;
-    --sub-font--: #ebd3f88c;
+:root {
+  --main-bg--: #2e073f;
+  --button-bg--: #7a1cac;
+  --primari-bg--: #ad49e1;
+  --main-font--: #ebd3f8;
+  --sub-font--: #ebd3f88c;
+  --m1: #2d1e2f;
+  --m2: #4e2a4f;
+}
 
+body {
+  margin: 0;
+  /* 135deg diagonal gradient */
+  background: linear-gradient(135deg, var(--m1), var(--m2));
+  /* optional: keep it fixed while scrolling */
+  background-attachment: fixed;
+  color: #f6f1f8; /* example text color */
 }
