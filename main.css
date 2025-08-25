@@ -1,5 +1,46 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 15px;
+  height: 60px;
+  border-radius: 10px;
+}
+header .logo {
+  font-size: 34px;
+  font-family: "Federant", serif;
+  letter-spacing: 5px;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  cursor: pointer;
+}
+header nav ul {
+  display: flex;
+  gap: 43px;
+  list-style: none;
+}
+header nav ul a {
+  text-decoration: none;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 10px;
+  position: relative;
+  background: linear-gradient(120deg, #b393d3 0%, #4e2a4f 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease-in;
+}
+header nav ul a:hover {
+  background-size: 100% 50%;
 }

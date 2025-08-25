@@ -4,15 +4,21 @@
   --primari-bg--: #ad49e1;
   --main-font--: #ebd3f8;
   --sub-font--: #ebd3f88c;
+  --header-bg--: #ffffff1A;
   --m1: #2d1e2f;
   --m2: #4e2a4f;
 }
 
 body {
   margin: 0;
-  /* 135deg diagonal gradient */
   background: linear-gradient(135deg, var(--m1), var(--m2));
-  /* optional: keep it fixed while scrolling */
   background-attachment: fixed;
-  color: #f6f1f8; /* example text color */
+  color: #f6f1f8; 
+}
+
+header{
+   background-color: var(--header-bg--) ;
+}
+header nav ul a{
+  color: var(--main-font--);
 }
